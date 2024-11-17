@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: acdb5c7d69f27d8458d3b834097796a3
+  - enabled: 1
+    path: Assets/Scenes/State.unity
+    guid: dcde340d61c0dba49981cbdf94bfbafe
+  - enabled: 1
+    path: Assets/Scenes/State2.unity
+    guid: a4c4cb51af4a28e4aa0acd6578496a74
+  - enabled: 1
+    path: Assets/Scenes/Scene1.unity
+    guid: 8cd0f25af6a69c34d8be9d977e3d41ed
+  - enabled: 1
+    path: Assets/Scenes/Scene2.unity
+    guid: e8d8898ddb3ebf54ca145a94f21a7a48
+  - enabled: 1
+    path: Assets/Scenes/Branch1A.unity
+    guid: ee58eb4439b782542b1e4cc05c4590a9
+  - enabled: 1
+    path: Assets/Scenes/Branch1B_CastAway.unity
+    guid: b0eb4b45e31afb947960e2d3b92f9eff
+  - enabled: 1
+    path: Assets/Scenes/Branch2A_Nirvana.unity
+    guid: 67f54cd38d15cf84fb97e622e2a4dcd4
+  - enabled: 1
+    path: Assets/Scenes/Branch2B.unity
+    guid: 732324aeadddc4e4684eeaeb8c09dda3
+  - enabled: 1
+    path: Assets/Scenes/Branch3A_ExpectedEnding.unity
+    guid: d85dbdcce4e3dde478d01c4719537136
+  - enabled: 1
+    path: Assets/Scenes/Branch3B.unity
+    guid: 3914d0a0968bc9a47b2121e55b369e71
+  - enabled: 1
+    path: Assets/Scenes/Branch4A.unity
+    guid: 9f01d2a154ac9e24a95e1aebbbc4cab7
+  - enabled: 1
+    path: Assets/Scenes/Branch4B_FlyMeToTheMoon.unity
+    guid: 36fc562adfcf1124c8db71140441deb1
+  - enabled: 1
+    path: Assets/Scenes/Scene5.unity
+    guid: 1425cec07f776354f91fca2e8bb679e3
+  - enabled: 1
+    path: Assets/Scenes/Branch5A.unity
+    guid: 856c6548835e82649b87a3a549ca7988
+  - enabled: 1
+    path: Assets/Scenes/Branch5B_LastChance.unity
+    guid: 0b09aefec964bf042a5a3856e6ac5f68
+  - enabled: 1
+    path: Assets/Scenes/Branch6A.unity
+    guid: 679b926a89f05994e95fd07f56b3d968
+  - enabled: 1
+    path: Assets/Scenes/Branch6B_Cliche.unity
+    guid: ed24653adffb22c4facb208b3b82f11a
+  - enabled: 1
+    path: Assets/Scenes/Branch7A.unity
+    guid: 9a1f4e0be021e094fba9fd4b6616c859
+  - enabled: 1
+    path: Assets/Scenes/Branch7AB_EmilSinclair.unity
+    guid: a3dbe357a714b3346b00ef2326fe2541
+  - enabled: 1
+    path: Assets/Scenes/Branch7B.unity
+    guid: 0504071aa2e5d8b4091b367e6fa2d8ac
+  - enabled: 1
+    path: Assets/Scenes/Branch7BB_LifeIsButADream.unity
+    guid: c53c6a1e56e96d746b3d193becaea235
+  - enabled: 1
+    path: Assets/Scenes/Branch7C_Sisyphus.unity
+    guid: ab75c841e2530b84cb6ad51696ed1e1d
+  - enabled: 1
+    path: Assets/Scenes/Credit.unity
+    guid: 6297387b857048144bf976852ccb3ae3
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  m_configObjects: {}
