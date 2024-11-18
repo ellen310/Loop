@@ -12,7 +12,7 @@ public class BuildScript
     {
         Debug.Log("Build Started...");
 
-        string buildDirectory = "../Builds";
+        string buildDirectory = "/var/jenkins_home/workspace/Loop/Builds";
         if (!Directory.Exists(buildDirectory))
         {
             Debug.Log("BuildDirectory Created...");
