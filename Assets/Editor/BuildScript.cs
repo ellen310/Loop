@@ -21,7 +21,7 @@ public class BuildScript
         options.scenes = scenes.ToArray();
 
         // 타겟 경로
-        options.locationPathName = "Builds";
+        options.locationPathName = "./Builds";
 
         // 빌드 타겟
         options.target = BuildTarget.WebGL;
