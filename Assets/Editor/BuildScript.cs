@@ -9,6 +9,13 @@ public class BuildScript
     [MenuItem("Build/Build WebGL")]
     public static void PerformBuild()
     {
+
+        string buildDirectory = "./Builds";
+        if (!Directory.Exists(buildDirectory))
+        {
+            Directory.CreateDirectory(buildDirectory);
+        }
+
         BuildPlayerOptions options = new BuildPlayerOptions();
 
         // Scene 추가
