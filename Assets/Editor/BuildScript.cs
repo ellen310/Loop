@@ -10,10 +10,12 @@ public class BuildScript
     [MenuItem("Build/Build WebGL")]
     public static void PerformBuild()
     {
+        Debug.Log("Build Started...");
 
-        string buildDirectory = "./Builds";
+        string buildDirectory = "../Builds";
         if (!Directory.Exists(buildDirectory))
         {
+            Debug.Log("BuildDirectory Created...");
             Directory.CreateDirectory(buildDirectory);
         }
 
@@ -29,13 +31,16 @@ public class BuildScript
         options.scenes = scenes.ToArray();
 
         // 타겟 경로
-        options.locationPathName = "./Builds";
+        options.locationPathName = buildDirectory;
 
         // 빌드 타겟
         options.target = BuildTarget.WebGL;
         
         // 빌드
         BuildPipeline.BuildPlayer(options);
+
+        Debug.Log("Build Completed...");
+
     }
 
 }
